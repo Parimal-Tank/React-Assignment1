@@ -1,38 +1,232 @@
+*{
+  box-sizing: border-box;
+}
+
+/* All side Image */ 
 .App {
+  background: url('./assets/images/Asset5.svg') no-repeat , url('./assets/images/Asset6.svg') no-repeat , url('./assets/images/Asset7.svg') no-repeat , url('./assets/images/Asset8.svg') no-repeat , url('./assets/images/Asset9.svg') no-repeat , url('./assets/images/Asset10.svg') no-repeat ,  url('./assets/images/Asset11.svg') no-repeat;
+  background-position: 0px 28% , right 43% , 0px 50% , right 62% , 0px 71% , right 76% , 0px 93%;
+}
+
+/* navbar */
+.nav-main{
+  background: url('./assets/images/Asset1.svg') no-repeat , url('./assets/images/Asset2.svg') no-repeat , url('./assets/images/Assets4.svg') no-repeat, url('./assets/images/home image/i3.svg') no-repeat , url('./assets/images/home image/i2.svg') no-repeat ,  url('./assets/images/home image/i1.svg') no-repeat ;
+  background-position: top left , top right , bottom right , 150px 100% , bottom left , bottom left;
+  height: 100vh;
+}
+
+.nav-main{
+  width: 100%;
+  height: 100vh;
+} 
+
+
+/* home page */
+.home{
+   display: flex;
+}
+
+.home-text {
+  position: relative;
+  top: 277px;
+  height: 198px;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 66px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-text-p{
+  position: relative;
+  top: 300px;
+}
+
+
+/* about section */
+.about-text {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 66px;
+  margin-top: 161px;
+  top: 277px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-img{
+   margin-top: 20%;
+}
+
+.about-border {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background: #A9A9A9;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.about-text-line{
+  position: absolute;
+  border-bottom: 1px solid #A9A9A9;
+  width: 120px;
+  top: 2px;
+  left: 0px;
+} 
+
+
+/* service section */
+.service{
+    z-index: -15;
+}
+
+.service-text{
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 66px;
+  margin-top: 161px;
+  top: 277px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.service2-text{
+   margin-top: 130px !important;
+   text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* project section */
+.projectImg-animation{
+  position: relative;
+  width: 100%;
+}
+
+.project-text{
+   color: white;
+   display: flex;
+   justify-content: center;
+   margin-top: 25%;
+}
+
+.projectImg-animation:hover .overlay {
+  width: 87%;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.underline-img{
+   height: 5px;
+   margin: auto -40px;
+}
+
+.underline_img{
+  height: 5px;
+  margin: auto 540px;
+}
+
+.underline_client{
+  left: 45.50%;
+  width: 200px;
+  margin: auto -40px;
+}
+
+/* Team section */
+
+.team-border {
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background: #A9A9A9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.team-text-line{
+  position: absolute;
+  border-bottom: 1px solid #A9A9A9;
+  width: 120px;
+  top: 2px;
+}
+
+.i1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+} 
+
+.i2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.i3{
+  position: absolute;
+  left: 147px;
+  bottom: 0;
+}
+
+.demo{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Footer section */
+.footer{
+  background-color: #BFDBFF;
+  margin: 25px;
+  padding: 25px;
+}
+
+li{
+  list-style: none;
+}
+
+li > a {
+ text-decoration : none;
+ color: black;
+}
+
+
+
+/* home page text for mobile view */
+@media screen and (max-width: 400px) {
+  .home-text{
+      font-size: 46px;
+      top: 20px;
+  }
+  .home-text-p{
+    top: 100px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* home page text for laptop view */
+@media screen and (max-width: 770px) {
+  .home-text{
+      font-size: 46px;
+      top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .home-text-p{
+    top: 0px;
   }
 }
+
