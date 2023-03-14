@@ -19,17 +19,17 @@ const Team = () => {
 
       <div className="container m-auto d-flex justify-content-center">
         <Row className="team-section">
-          <Col>
+          <Col className="d-flex align-items-center flex-column">
             <img src={person1} alt="person1"></img>
             <p className="text-center my-3">Jessica D'suza</p>
           </Col>
 
-          <Col>
+          <Col className="d-flex align-items-center flex-column">
             <img src={person2} alt="person2"></img>
             <p className="text-center my-3">Johny Williams</p>
           </Col>
 
-          <Col>
+          <Col className="d-flex align-items-center flex-column">
             <img src={person3} alt="person3"></img>
             <p className="text-center my-3">Sanya R.</p>
           </Col>

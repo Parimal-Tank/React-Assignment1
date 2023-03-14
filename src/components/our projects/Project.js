@@ -22,27 +22,51 @@ const Project = () => {
 
       <Row>
         <Col xs={6}>
-          <div className="d-flex justify-content-end ">
-            <div className="projectImg-animation">
+          <div>
+            <div className="projectImg-animation d-flex justify-content-end">
               <img
                 className="img-fluid image"
                 src={OurProjectImg}
                 alt="Projects"
               />
-              <div className="overlay">
-                <div className="project-text">Project Name</div>
+              <div className="d-flex justify-content-end">     
+                <div className="overlay">
+                    <div className="project-text">Project Name</div>
+                </div>
               </div>
             </div>
           </div>
         </Col>
 
         <Col xs={6}>
-          <Col xs={12}>
-            <img src={OurProjectImg2} alt="Projects" className="img-fluid mb-3"></img>
+          <Col xs={12} className='mb-3'>
+            <div className="d-flex justify-content-end ">
+              <div className="projectImg-animation">
+                <img
+                  className="img-fluid image"
+                  src={OurProjectImg2}
+                  alt="Projects"
+                />
+                <div className="overlay1">
+                  <div className="project-text">Project Name</div>
+                </div>
+              </div>
+            </div>
           </Col>
 
           <Col xs={12}>
-            <img src={OurProjectImg3} alt="Projects" className="img-fluid"></img>
+          <div className="d-flex justify-content-end ">
+                <div className="projectImg-animation">
+                  <img
+                    className="img-fluid image"
+                    src={OurProjectImg3}
+                    alt="Projects"
+                  />
+                  <div className="overlay1">
+                    <div className="project-text">Project Name</div>
+                  </div>
+                </div>
+            </div>
           </Col>
         </Col>
       </Row>

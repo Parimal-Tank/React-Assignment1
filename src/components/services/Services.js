@@ -96,7 +96,7 @@ const Services = () => {
             </Col>
 
             <Col lg={6} className="services-texts">
-              <h3 className="services-title">CONSULTATION AND RESEARCH</h3>
+              <h3 className="services-title">CONSULTATION AND RESEARCH</h3> 
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Faucibus quam quis egestas orci. Scelerisque eu, vitae sapien,

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.svg";
+
+import navbarImg from '../../assets/images/home image/Navbarimg.svg'
+
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -24,39 +28,41 @@ expand:'lg'}
     <>
       <div className="nav-main">
         
-        <Navbar  container  {...args}>
+        <Navbar  container-full  {...args} className="px-5">
+        <div className="px-5 d-flex justify-content-between w-100">
           <NavbarBrand href="/">
             <img className="logo" alt="logo" src={logo}></img>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
 
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="ms-auto  d-flex justify-content-around" navbar>
+            <Nav className="ms-auto  d-flex justify-content-around pe-4" navbar>
               <NavItem>
-                <NavLink href="/components/">About Us</NavLink>
+                <NavLink href="/components/" className="nav-text">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Services</NavLink>
+                <NavLink href="/components/"  className="nav-text">Services</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Team</NavLink>
+                <NavLink href="/components/"  className="nav-text">Team</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Clients</NavLink>
+                <NavLink href="/components/"  className="nav-text">Clients</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Contact Us</NavLink>
+                <NavLink href="/components/"  className="nav-text">Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
+          </div>
         </Navbar>
 
         <section>
           <Container>
             <Row>
               <Col lg={6} sm={12}>
-                <div className="home">
-                 
+                <div className="home">           
+                    <img src={navbarImg} className='img-fluid img1'></img>
                 </div>
               </Col>  
 
