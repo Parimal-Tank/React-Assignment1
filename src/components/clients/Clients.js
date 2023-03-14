@@ -12,39 +12,44 @@ import Client9 from "../../assets/images/client image/Client9.svg";
 const Clients = () => {
   return (
     <div className="container">
-      <h3 className="text-center mt-5">OUR CLIENTS</h3>
-      <div className="team-border">
-        <div className="team-text-line"></div>
+
+    <div className="service-title-text my-5">
+    <div>
+      <p className="service-text mb-0">OUR CLIENTS</p>
+      <div className="client-border">
+        <div className="client-text-line"></div>
       </div>
+    </div>
+  </div>
 
       {/* for responsiveness  */}
       <div class="row">
         <div class="col-3 col-md-3 col-sm-4">
-          <img src={Client1} alt='clients' className="img-fluid"></img>
+          <img src={Client1} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-sm-4">
-          <img src={Client2} alt='clients' className="img-fluid"></img>
+          <img src={Client2} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-sm-4">
-          <img src={Client3} alt='clients' className="img-fluid"></img> 
+          <img src={Client3} alt='clients' className="img-fluid client-img"></img> 
         </div>
         <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client4} alt='clients' className="img-fluid"></img>
+          <img src={Client4} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client5} alt='clients' className="img-fluid"></img>
+          <img src={Client5} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client6} alt='clients' className="img-fluid"></img>
+          <img src={Client6} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client7} alt='clients' className="img-fluid"></img>
+          <img src={Client7} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client8} alt='clients' className="img-fluid"></img>
+          <img src={Client8} alt='clients' className="img-fluid client-img"></img>
         </div>
         <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client9} alt='clients' className="img-fluid"></img>
+          <img src={Client9} alt='clients' className="img-fluid client-img"></img>
         </div>
       </div>
 

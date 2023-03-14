@@ -10,8 +10,15 @@ import Col from "react-bootstrap/Col";
 const Project = () => {
   return (
     <div className="container">
-      <h3 className="text-center">OUR PROJECTS</h3>
-      <div className="team-border"><div className='team-text-line'></div></div>
+
+      <div className="service-title-text my-5">
+      <div>
+        <p className="service-text mb-0">OUR PROJECTS</p>
+        <div className="client-border">
+          <div className="project-text-line"></div>
+        </div>
+      </div>
+    </div>
 
       <Row>
         <Col xs={6}>
