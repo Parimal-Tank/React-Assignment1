@@ -13,7 +13,7 @@ function Footer() {
     <div className='footer container'>
          <Row>
             <Col>
-                 <h3 className='footer-text-title'>Social</h3>
+                 <h3 className='footer-text-title1'>Social</h3>
                     <li className='footer-text'><a href='/'><img src={facebook} alt='facebook' className='company-logo'></img>  Facebook</a></li>
                     <li className='footer-text'><a href='/'><img src={linkedin} alt='linkedin' className='company-logo'></img> &nbsp;Linkedin</a></li>
                     <li className='footer-text'><a href='/'><img src={google} alt='google' className='company-logo'></img>&nbsp;Google +</a></li>

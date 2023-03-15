@@ -22,35 +22,17 @@ const Clients = () => {
     </div>
   </div>
 
-      {/* for responsiveness  */}
-      <div class="row">
-        <div class="col-3 col-md-3 col-sm-4">
-          <img src={Client1} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-sm-4">
-          <img src={Client2} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-sm-4">
-          <img src={Client3} alt='clients' className="img-fluid client-img"></img> 
-        </div>
-        <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client4} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client5} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client6} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client7} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client8} alt='clients' className="img-fluid client-img"></img>
-        </div>
-        <div class="col-3 col-md-3 col-xs-4">
-          <img src={Client9} alt='clients' className="img-fluid client-img"></img>
-        </div>
+
+      <div className="d-flex align-items-center justify-content-center flex-wrap client-images">
+           <img src={Client1} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client2} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client3} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client4} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client5} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client6} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client7} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client8} alt='clients' className="img-fluid client-img"></img>
+           <img src={Client9} alt='clients' className="img-fluid client-img"></img>
       </div>
 
 

@@ -24,8 +24,8 @@ const Services = () => {
           </div>
 
           <Row className="service-content">
-            <Col lg={6} className="services-texts">
-              <p className="services-title text-end" >Engagement</p>
+            <Col lg={6}>
+              <p className="services-title text-end text-uppercase" >Engagement</p>
               <p className="text-end service-child-text">
                 We love what we do and are driven by achieving great results for
                 our clients. Our awards and impressive client list are testament
@@ -37,21 +37,25 @@ const Services = () => {
             </Col>
 
             <Col lg={6} className='align-items-center'>
+            <div className="d-flex align-items-center justify-content-center">
               <img
                 src={engagementImg}
                 alt="services"
                 className="img-fluid service-img"
               ></img>
+              </div>
             </Col>
           </Row>
 
           <Row className="my-5 flex-column-reverse flex-lg-row align-items-center">
             <Col lg={6}>
+            <div className="d-flex align-items-center justify-content-center">
               <img
                 src={communicationsImg}
                 alt="services"
-                className="img-fluid service-img2"
+                className="img-fluid"
               ></img>
+              </div>
             </Col>
 
             <Col lg={6} className="services-texts">
@@ -64,8 +68,8 @@ const Services = () => {
             </Col>
           </Row>
 
-          <Row className="my-5 align-items-center">
-            <Col lg={6} className="services-texts">
+          <Row className="my-5 align-items-center"> 
+            <Col lg={6}>
               <h3 className="services-title text-end">FACILITATION</h3>
               <p className="text-end service-child-text">
                 We love what we do and are driven by achieving great results for
@@ -78,21 +82,25 @@ const Services = () => {
             </Col>
 
             <Col lg={6}>
+            <div className="d-flex align-items-center justify-content-center">
               <img
                 src={facilationImg}
                 alt="services"
                 className="img-fluid service-img3"
               ></img>
+              </div>
             </Col>
           </Row>
 
           <Row className="my-5 flex-column-reverse flex-lg-row">
             <Col lg={6}>
+            <div className="d-flex align-items-center justify-content-center">
               <img
                 src={ConsultationImg}
                 alt="services"
-                className="img-fluid service-img4"
+                className="img-fluid  d-flex justify-content-center"
               ></img>
+              </div>
             </Col>
 
             <Col lg={6} className="services-texts">
@@ -106,7 +114,7 @@ const Services = () => {
           </Row>
 
           <Row className="my-5 align-items-center">
-            <Col lg={6} className="services-texts">
+            <Col lg={6}>
               <h3 className="services-title text-end">TRANING & MENTORING</h3>
               <p className="text-end service-child-text">
                 We love what we do and are driven by achieving great results for
@@ -119,11 +127,14 @@ const Services = () => {
             </Col>
 
             <Col lg={6}>
+            <div className="d-flex align-items-center justify-content-center">
               <img
-                src={TrainingImg}
-                alt="services"
-                className="img-fluid service-img5"
-              ></img>
+                  src={TrainingImg}
+                  alt="services"
+                  className="img-fluid service-img5"
+                ></img>
+            </div>
+              
             </Col>
           </Row>
         </Container>

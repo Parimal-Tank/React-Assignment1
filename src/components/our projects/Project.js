@@ -25,13 +25,13 @@ const Project = () => {
           <div>
             <div className="projectImg-animation d-flex justify-content-end">
               <img
-                className="img-fluid image"
+                className="img-fluid image w-100"
                 src={OurProjectImg}
                 alt="Projects"
               />
               <div className="d-flex justify-content-end">     
                 <div className="overlay">
-                    <div className="project-text">Project Name</div>
+                    <div className="project-text text-uppercase">Project Name</div>
                 </div>
               </div>
             </div>
@@ -43,12 +43,12 @@ const Project = () => {
             <div className="d-flex justify-content-end ">
               <div className="projectImg-animation">
                 <img
-                  className="img-fluid image"
+                  className="img-fluid image w-100"
                   src={OurProjectImg2}
                   alt="Projects"
                 />
-                <div className="overlay1">
-                  <div className="project-text">Project Name</div>
+                <div className="overlay">
+                  <div className="project-text text-uppercase">Project Name</div>
                 </div>
               </div>
             </div>
@@ -58,12 +58,12 @@ const Project = () => {
           <div className="d-flex justify-content-end ">
                 <div className="projectImg-animation">
                   <img
-                    className="img-fluid image"
+                    className="img-fluid image w-100"
                     src={OurProjectImg3}
                     alt="Projects"
                   />
-                  <div className="overlay1">
-                    <div className="project-text">Project Name</div>
+                  <div className="overlay">
+                    <div className="project-text text-uppercase">Project Name</div>
                   </div>
                 </div>
             </div>

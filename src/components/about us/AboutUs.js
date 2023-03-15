@@ -28,13 +28,13 @@ const AboutUs = () => {
                       <img src={icon1}  alt="engagement icon" className="img-fluid about-icon-img"></img>
                       <h3 className="about-title">ENGAGEMENT</h3>
                       <p className="about-text-child" >We are engagement specialists, who have led projects at all levels of the IAP2 spectrum.
-                      READ MORE</p>
+                      <a href="/" className="text-decoration-none">READ MORE</a></p>
                  </Col>
                  <Col>
                        <img src={icon2} alt="Communications icon" className="img-fluid about-icon-img"></img>
                        <h3 className="about-title" >Communications</h3>
                        <p className="about-text-child">We are award-winning leaders in communications and campaign management.
-                       READ MORE</p>
+                       <a href="/" className="text-decoration-none">READ MORE</a></p>
                  </Col>
               </Row>
             </Col>

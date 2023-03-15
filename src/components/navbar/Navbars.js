@@ -36,7 +36,7 @@ expand:'lg'}
           <NavbarToggler onClick={toggle} />
 
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="ms-auto  d-flex justify-content-around pe-4" navbar>
+            <Nav className="ms-auto  d-flex justify-content-around pe-4 nav-title-text" navbar>
               <NavItem>
                 <NavLink href="/components/" className="nav-text">About Us</NavLink>
               </NavItem>
